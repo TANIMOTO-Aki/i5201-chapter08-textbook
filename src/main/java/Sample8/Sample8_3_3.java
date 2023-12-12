@@ -2,8 +2,8 @@ public class Sample8_3_3 {
     /* 可変長引数を用いたメソッド */
     public static int addAll(int... number) {           //①可変長引数の定義
         int sum = 0;
-        for (int i = 0; i< number.length; i++){         //②合計を求める処理
-            sum += number[i];
+        for (int num : number){         //②合計を求める処理
+            sum += num;
         }
         return sum;
     }
