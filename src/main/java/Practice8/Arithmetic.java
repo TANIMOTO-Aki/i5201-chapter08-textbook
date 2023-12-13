@@ -13,7 +13,7 @@ public class Arithmetic {
     }
 
     /* 四捨五入 */
-    public double round(double value){
+    public int round(double value){
         int sign = 1;                       //符号
         if (value < 0){                     //正負の判定
             sign = -1;                      //負の設定
