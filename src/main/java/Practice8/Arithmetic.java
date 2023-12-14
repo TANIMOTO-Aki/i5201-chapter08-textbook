@@ -4,7 +4,7 @@ public class Arithmetic {
         if (value < 0){                 //正負の判定
             value *= -1.0;              //符号の反転
         }
-        return (double)value;                   //絶対値(double値)の返却
+        return value;                   //絶対値(double値)の返却
     }
 
     /* int値の絶対値 */
